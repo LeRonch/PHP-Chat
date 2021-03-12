@@ -1,0 +1,144 @@
+/* MAIN */
+
+body{
+	background: url(image/genshin-impact-25.jpg) no-repeat;
+  	background-size: cover;
+	filter: opacity(0.98);
+	font-family:cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+/* CHAT */
+
+#container {
+	width: 75%;
+	margin: auto;
+	padding: 2px 20px 20px 20px;
+	background: url(image/8dQiRl.jpg) no-repeat;
+	background-size: cover;
+    border: 1px solid black;
+    color:white;
+}
+
+.post_msg {
+	width: 95%;
+	margin: auto;
+	border: 1px solid black;
+	background: rgb(36, 35, 35);
+	padding: 5px;
+}
+
+
+.post_msg #message {
+	width: 72%;
+	background: white;
+}
+
+.post_msg #post {
+	float: right;
+    width: 10%;
+	margin-right: 4.5%;
+}
+
+.chat {
+	width: 95%;
+	margin: 10px auto;
+	border: 1px solid black;
+	
+}
+
+.chat #text-td {
+	margin: 0px; 
+	padding: 5px; 
+	width: 80%; 
+	background: white; 
+}
+
+.chat #users-td, 
+.chat #users-chat-td {
+	margin: 0px; 
+	padding: 5px; 
+	width: 20%; 
+	background: rgb(36, 35, 35);
+}
+
+.chat #text, 
+.chat #users, 
+.chat #users-chat {
+	height: 379px; 
+}
+
+hr{
+	border: 1px solid #629F37;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.bouton1 {
+	padding: 0.4rem 0.8rem;
+	color: #629F37;
+	text-transform: uppercase;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+  
+.bouton1:hover {
+	box-shadow: 1px 1px 15px 10px lightgray;
+	transform: scale(1.1);
+}
+  
+.bouton1:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+  	120deg,
+  	transparent,
+  	#629F37,
+  	transparent
+	);
+	transition: all 650ms;
+}
+  
+.bouton1:hover:before {
+	left: 100%;
+}
+
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+  
+::-webkit-scrollbar-thumb {
+	background: #77c042; 
+	border-radius: 25px;
+}
+
+.bouton2{
+    display: inline-block;
+    padding: 3px 10px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #77c042 0%, limegreen 100%);
+    background-image: linear-gradient(45deg, #77c042 0%, limegreen 100%);
+    transition: .4s;
+}
+
+.bouton2:hover {
+    background-image: -webkit-linear-gradient(45deg, #77c042 0%, limegreen 100%);
+    background-image: linear-gradient(45deg, #77c042 0%, limegreen 100%);
+}
